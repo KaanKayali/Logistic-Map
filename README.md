@@ -20,7 +20,7 @@ The logistic map exhibits a wide range of behaviors depending on the value of th
 
 The logistic map is widely studied not only for its mathematical properties but also for its applications in various fields, including biology, economics, and physics. It provides insights into the dynamics of nonlinear systems and the emergence of complexity from simple rules. Additionally, it serves as a fundamental example of deterministic chaos, where deterministic systems exhibit random-like behavior without external random inputs.
 
-<img height="100%" src="/images/R.jpg"/>
+<img height="50%" src="https://th.bing.com/th/id/R.581afb70002f1db50909a25507a61528?rik=BxjFJ9xDwHhKsQ&riu=http%3a%2f%2fwww.kierandkelly.com%2fwp-content%2fuploads%2f2015%2f04%2fX-Next-5.jpg&ehk=A%2fhmvXKWoOwidrAMbOIg1D4hReLd41HZipIe4HstUVo%3d&risl=&pid=ImgRaw&r=0"/>
 
 https://blbadger.github.io/logistic-map.html
 
