@@ -59,14 +59,11 @@ void calculateLogisticMap() {
 	
 }
 
-void drawmap() {
-    calculateLogisticMap();
-}
 
 void display() {
     if (T.fr1 - T.fr2 >= 50) // only draw 20 frames/second
     {
-        drawmap();
+        calculateLogisticMap();
         T.fr2 = T.fr1;
         glutSwapBuffers();
         glutReshapeWindow(GLSW, GLSH); // prevent window scaling
@@ -77,7 +74,7 @@ void display() {
 }
 
 void init() {
-    drawmap();
+    calculateLogisticMap();
 }
 
 int main(int argc, char* argv[]) {
