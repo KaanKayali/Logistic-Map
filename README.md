@@ -8,7 +8,7 @@ The logistic map is defined by the recursive equation:
 
 ![Alt text](/images/screenshot(4).png)  
 
-Here, \(x_n\) represents the population at time \(n\), and \(r\) is a parameter representing the growth rate of the population. The population \(x_{n+1}\) at the next time step is determined by multiplying the current population \(x_n\) by the factor \(r \cdot (1 - x_n)\).
+Here, ![Alt text](/images/screenshot(1).png)   represents the population at time \(n\), and \(r\) is a parameter representing the growth rate of the population. The population \(x_{n+1}\) at the next time step is determined by multiplying the current population \(x_n\) by the factor \(r \cdot (1 - x_n)\).
 
 The logistic map exhibits a wide range of behaviors depending on the value of the growth parameter \(r\):
 
