@@ -26,3 +26,5 @@ https://blbadger.github.io/logistic-map.html
 
 #### How to install
 In order to execute this programm you need a C Compiler with OpenGL implemented.
+
+To
