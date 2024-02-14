@@ -6,7 +6,7 @@ The logistic map is a mathematical function that describes the population growth
 
 The logistic map is defined by the recursive equation:
 
-\[x_{n+1} = r \cdot x_n \cdot (1 - x_n)\]
+![Alt text](/images/screenshot(4).png)  
 
 Here, \(x_n\) represents the population at time \(n\), and \(r\) is a parameter representing the growth rate of the population. The population \(x_{n+1}\) at the next time step is determined by multiplying the current population \(x_n\) by the factor \(r \cdot (1 - x_n)\).
 
