@@ -19,6 +19,8 @@ The logistic map exhibits a wide range of behaviors depending on the value of th
 3. **Chaotic Behavior:** At higher values of \(r\), the logistic map can enter chaotic regimes where the population undergoes complex, unpredictable behavior. Chaotic behavior in the logistic map is characterized by sensitive dependence on initial conditions, where tiny differences in initial population values can lead to vastly different outcomes over time.
 
 The logistic map is widely studied not only for its mathematical properties but also for its applications in various fields, including biology, economics, and physics. It provides insights into the dynamics of nonlinear systems and the emergence of complexity from simple rules. Additionally, it serves as a fundamental example of deterministic chaos, where deterministic systems exhibit random-like behavior without external random inputs.
+![Alt text](/R.jpg)  
+https://blbadger.github.io/logistic-map.html
 
 #### How to install
 In order to execute this programm you need a C++ Compiler with OpenGL implemented.
