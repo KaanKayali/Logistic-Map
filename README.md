@@ -22,5 +22,5 @@ The logistic map is widely studied not only for its mathematical properties but 
 
 <img height="350px" src="https://th.bing.com/th/id/R.581afb70002f1db50909a25507a61528?rik=BxjFJ9xDwHhKsQ&riu=http%3a%2f%2fwww.kierandkelly.com%2fwp-content%2fuploads%2f2015%2f04%2fX-Next-5.jpg&ehk=A%2fhmvXKWoOwidrAMbOIg1D4hReLd41HZipIe4HstUVo%3d&risl=&pid=ImgRaw&r=0"/>
 
-https://blbadger.github.io/logistic-map.html
+(Visualization of the logistic-map) https://blbadger.github.io/logistic-map.html
 
