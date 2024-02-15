@@ -24,3 +24,43 @@ The logistic map is widely studied not only for its mathematical properties but 
 
 (Visualization of the logistic-map) https://blbadger.github.io/logistic-map.html
 
+
+#### How to set up
+
+All of the code to display this works in a single class. You can use any C compiler.
+I used DevC++ 5.4.1 which is free for everyone. Download and extract glutming which contains GL.
+
+You need 3 files out of the glutming folder:
+1. glut.h,
+2. libglut32.a,
+and 3. glut32.dll.
+
+If you use DevC++, you need to place the glut.h file in Dev-Cpp\MinGW32\include\GL.
+Put the libglut32.a into Dev-Cpp\MinGW\lib and the glut32.dll into C:\Windows\SysWoW64.
+
+To copy those files into the specified folders, you need to provide administrator permission.
+After that, you can open DevC++. 
+Open a new Source file. 
+
+To run and test it, you need to add this code (you can also copy the source code of the logistic-map):
+#include <GL/glut.h>
+
+void display()
+{
+	
+}
+
+int main()
+{ 
+	glutInitWindowSize(640,640);
+	glutCreateWindow("Random Name");
+	glutDisplayFunc(display);
+	gluOrtho2D(0,640,0,640);
+	glutMainLoop();
+	return 0;
+}
+
+It won't work just yet. To run it, you lastly need to open the Compiler Options under Tools and tick "Add the following commands when calling the compiler". Paste in these linkers and click OK.
+
+Press F11 to compile and run the code and see if it works. It should open a blank window. 
+If so, you are finished with the setup.
