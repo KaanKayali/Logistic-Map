@@ -45,6 +45,7 @@ After that, you can open DevC++.
 Open a new Source file. 
 
 To run and test it, you need to add this code (you can also copy the source code of the logistic-map):
+```
 #include <GL/glut.h>
 
 void display()
@@ -61,6 +62,7 @@ int main()
 	glutMainLoop();
 	return 0;
 }
+```
 
 It won't work just yet. To run it, you lastly need to open the Compiler Options under Tools and tick "Add the following commands when calling the compiler". Paste in these linkers and click OK.
 
