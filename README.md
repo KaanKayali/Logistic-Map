@@ -1,5 +1,5 @@
 #### Description
-This programm was made with Dev C++. It displays by executing the logistic map using OpenGL.
+This programm was made with C. It displays the logistic map using OpenGL.
 
 #### The logistic map
 The logistic map is a mathematical function that describes the population growth of a species in an environment with limited resources. It's one of the simplest nonlinear dynamical systems studied in chaos theory.
