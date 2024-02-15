@@ -1,7 +1,9 @@
-#### Description
-This programm was made with C. It displays the logistic map using OpenGL.
+# Logistic-Map
+## Description
+This programm was made with C.  
+It displays the logistic map using OpenGL.
 
-#### The logistic map
+## Displaying logistic map
 The logistic map is a mathematical function that describes the population growth of a species in an environment with limited resources. It's one of the simplest nonlinear dynamical systems studied in chaos theory.
 
 The logistic map is defined by the recursive equation:
@@ -25,15 +27,15 @@ The logistic map is widely studied not only for its mathematical properties but 
 (Visualization of the logistic-map) https://blbadger.github.io/logistic-map.html
 
 
-#### How to set up
+## How to set up
 
 All of the code to display this works in a single class. You can use any C compiler.
 I used DevC++ 5.4.1 which is free for everyone. Download and extract glutming which contains GL.
 
 You need 3 files out of the glutming folder:
-1. glut.h,
-2. libglut32.a,
-and 3. glut32.dll.
+* glut.h,
+* libglut32.a,
+* glut32.dll.
 
 If you use DevC++, you need to place the glut.h file in Dev-Cpp\MinGW32\include\GL.
 Put the libglut32.a into Dev-Cpp\MinGW\lib and the glut32.dll into C:\Windows\SysWoW64.
