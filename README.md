@@ -10,7 +10,7 @@ The logistic map is defined by the recursive equation:
 
 <img height="35px" src="/images/screenshot(4).png"/>
 
-Here, H~2~0  represents the population at time **n**, and **r** is a parameter representing the growth rate of the population. The population <img height="25px" src="/images/screenshot(2).png"/> at the next time step is determined by multiplying the current population <img height="20px" src="/images/screenshot(1).png"/> by the factor <img height="20px" src="/images/screenshot(3).png"/>.
+Here, <img height="20px" src="/images/screenshot(1).png"/> represents the population at time **n**, and **r** is a parameter representing the growth rate of the population. The population <img height="25px" src="/images/screenshot(2).png"/> at the next time step is determined by multiplying the current population <img height="20px" src="/images/screenshot(1).png"/> by the factor <img height="20px" src="/images/screenshot(3).png"/>.
 
 The logistic map exhibits a wide range of behaviors depending on the value of the growth parameter **r**:
 
