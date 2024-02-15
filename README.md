@@ -10,7 +10,7 @@ The logistic map is defined by the recursive equation:
 
 <img height="35px" src="/images/screenshot(4).png"/>
 
-Here, <img height="20px" src="/images/screenshot(1).png"/>  represents the population at time **n**, and **r** is a parameter representing the growth rate of the population. The population <img height="25px" src="/images/screenshot(2).png"/> at the next time step is determined by multiplying the current population <img height="20px" src="/images/screenshot(1).png"/> by the factor <img height="20px" src="/images/screenshot(3).png"/>.
+Here, H~2~0  represents the population at time **n**, and **r** is a parameter representing the growth rate of the population. The population <img height="25px" src="/images/screenshot(2).png"/> at the next time step is determined by multiplying the current population <img height="20px" src="/images/screenshot(1).png"/> by the factor <img height="20px" src="/images/screenshot(3).png"/>.
 
 The logistic map exhibits a wide range of behaviors depending on the value of the growth parameter **r**:
 
@@ -26,7 +26,6 @@ The logistic map is widely studied not only for its mathematical properties but 
 
 (Visualization of the logistic-map) https://blbadger.github.io/logistic-map.html
 
-
 ## How to set up
 
 All of the code to display this works in a single class. You can use any C compiler.
@@ -40,9 +39,13 @@ You need 3 files out of the glutming folder:
 If you use DevC++, you need to place the glut.h file in Dev-Cpp\MinGW32\include\GL.
 Put the libglut32.a into Dev-Cpp\MinGW\lib and the glut32.dll into C:\Windows\SysWoW64.
 
+<img height="200px" src="/images/screenshot(9).png"/><img height="200px" src="/images/screenshot(11).png"/>
+
 To copy those files into the specified folders, you need to provide administrator permission.
 After that, you can open DevC++. 
 Open a new Source file. 
+
+<img height="200px" src="/images/screenshot(10).png"/>
 
 To run and test it, you need to add this code (you can also copy the source code of the logistic-map):
 ```
@@ -64,7 +67,13 @@ int main()
 }
 ```
 
-It won't work just yet. To run it, you lastly need to open the Compiler Options under Tools and tick "Add the following commands when calling the compiler". Paste in these linkers and click OK.
+It won't work just yet. To run it, you lastly need to open the Compiler Options under Tools and tick "Add the following commands when calling the compiler".  
+Paste in these linkers and click OK.
+```
+-lglu32 -lglut32 -lopengl32
+```
 
-Press F11 to compile and run the code and see if it works. It should open a blank window. 
+<img height="200px" src="/images/screenshot(12).png"/>
+
+Press F11 to compile and run the code and see if it works. It should open a blank window.  
 If so, you are finished with the setup.
